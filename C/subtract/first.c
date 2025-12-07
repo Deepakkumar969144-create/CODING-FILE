@@ -8,5 +8,7 @@ int main() {
     scanf("%d", &b);
     c= a-b;
     printf( "the subtraction is : %d" , c);
+         printf("\n adtiya sir");
         return 0;
 }
+

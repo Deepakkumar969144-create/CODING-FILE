@@ -29,7 +29,10 @@ if (a%11==0 ){
 
 }
 else{
-    printf(" not divisible by both 5 and 11 %d");
+    printf(" not divisible by both 5 and 11 ");
 }
+printf("\n adtiya sir");
 return 0;
+ 
 }
+

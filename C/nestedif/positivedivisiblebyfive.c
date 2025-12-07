@@ -8,8 +8,9 @@ int main () {
 
     }
     else {
-        printf("%d is not satisfy the condition\n",a);
+        printf("%d is not satisfy the condition not divisible by 5\n",a);
 
     }
+    printf("adtiya sir");
     return 0;
 }

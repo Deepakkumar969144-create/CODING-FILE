@@ -28,5 +28,6 @@ int main () {
     if(b>a) {
         printf("second number is greatest");
     }
+    printf("\n adtiya sir");
     return 0;
 }

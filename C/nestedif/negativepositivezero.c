@@ -16,6 +16,7 @@ int main () {
         printf("the number inzero");
 
     }
+    printf("adtiya sir");
     return 0;
     
 }

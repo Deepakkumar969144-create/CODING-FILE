@@ -25,5 +25,6 @@ int main () {
     a = a / b;
 
     printf("After swapping: a = %d, b = %d\n", a, b);
+    printf("adtiya sir");
     return 0;
 }

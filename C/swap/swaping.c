@@ -10,5 +10,6 @@ int main () {
     b=a-b;
     a=a-b;
     printf("before swaping a:  %d", a);
+     printf("\n adtiya sir");
     return 0;
 }

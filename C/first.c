@@ -3,6 +3,8 @@
 int main (){
     int a, b, c;
     printf ( "hello world");
+    printf("\n adtiya sir");
+                  
     return 0;
-    
+     
 }

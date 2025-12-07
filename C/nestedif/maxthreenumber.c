@@ -22,6 +22,7 @@ int main() {
             printf("max = %d\n", c);
         }
     }
+    printf("\n adtiya sir");
 
     return 0;
 }

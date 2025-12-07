@@ -26,6 +26,7 @@ int main() {
         printf("%d is negative " ,a );
 
     }
+    printf("\n adtiya sir");
     return 0;
 
 }

@@ -13,5 +13,6 @@ int main() {
     else {
         printf("%c is a special character\n", ch);
     }
+    printf("adtiya sir");
     return 0;
 }

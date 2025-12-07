@@ -8,6 +8,8 @@ int main() {
     scanf( "%d",&b);
     c= a+b;
     printf("the sum is : %d ", c);
+    printf("\n adtiya sir");
     return 0;
-    
+
 }
+

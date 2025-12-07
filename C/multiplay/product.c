@@ -9,6 +9,7 @@ int main() {
     c=a*b;
 
     printf( "the product is :  %d" , c);
+    printf("\n adtiya sir");
     return 0;
 
 

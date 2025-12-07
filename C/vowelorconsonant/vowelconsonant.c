@@ -14,6 +14,7 @@ int main() {
     else {
         printf("%c is not an alphabet and Invalid input \n",ch);
     }
+    printf("adtiya sir");
 
     return 0;
 }

@@ -25,5 +25,9 @@
         printf("%d the number is odd",a);
 
         }
+    printf("\n adtiya sir");
+
         return 0;
     }
+   
+    

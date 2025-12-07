@@ -3,6 +3,7 @@
 int main (){
     int a, b, c;
     printf ("enter number: ");
+  
     scanf( "%d",&a );
     scanf( "%d" , &b);
     scanf("%d", &c);
@@ -10,7 +11,8 @@ int main (){
     b=c;
     c=a;
 
-    printf (" swaping is a : %d",a);
+    printf (" swaping is : %d, %d , %d ",a,b, c);
+       printf("adtiya sir");
     return 0;
 
 }

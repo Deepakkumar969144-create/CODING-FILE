@@ -8,5 +8,6 @@ int main () {
     scanf("%d", &b);
     c= a/b;
     printf( "the division is :  %d", c);
+    printf("\n adtiya sir");
     return 0;
 }
