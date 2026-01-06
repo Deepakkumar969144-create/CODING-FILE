@@ -16,3 +16,6 @@ public class Digitnum{
         sc.close();
     }
 }
+
+// && dono condition true hona chahiye 
+// || dono me se yek condition lagna chaiye ya yek true ho 
