@@ -12,3 +12,18 @@ public class absalute{
         
     }
 }
+
+        //  int and double comparison (==)
+
+        
+// int n= 10;
+// if(n==10.0){
+//     System.out.println("true ");
+
+// }
+// else{
+//     System.out.println("false:");
+
+// }
+//     }
+// }
