@@ -13,7 +13,7 @@ public class absalute{
     }
 }
 
-        //  int and double comparison (==)
+        //  int and double comparison (==)-value chack karta hai data type nhi 
 
         
 // int n= 10;
