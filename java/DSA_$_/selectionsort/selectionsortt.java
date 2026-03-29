@@ -1,4 +1,4 @@
-package array.selectionsort;
+package selectionsort;
 import java.util.Scanner;
 public class selectionsortt {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package array.bubble;
+package bubble;
 import java.util.Arrays;
 
 public class BubbleReverseBest {

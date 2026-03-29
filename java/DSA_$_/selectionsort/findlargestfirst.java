@@ -1,4 +1,4 @@
-package array.selectionsort;
+package selectionsort;
 import java.util.Arrays;
 import java.util.Scanner;
 public class findlargestfirst {
