@@ -10,7 +10,7 @@ public class printingnegative {
         System.out.println("Enter array length:");
         int n = sc.nextInt();
 
-        int[] arr = new int[n];
+        int[] arr = new int[n];      //"n size ka ek dabba bana diya jisme sirf integers store honge"
 
         System.out.println("Enter elements:");
         for (int i = 0; i < n; i++) {

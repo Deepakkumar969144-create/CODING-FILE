@@ -37,7 +37,7 @@ public class basic {
         for (int i = 0; i < n; i++)
             System.out.print(arr.get(i) + " ");
 
-        // arrray ko print karna
+        // arrray ko print karna best method array print 
          System.out.println("\narray print: ");
         for (int ele : arr) {
             System.out.print(ele + " ");

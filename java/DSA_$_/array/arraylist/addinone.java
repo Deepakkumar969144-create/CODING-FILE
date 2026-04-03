@@ -14,7 +14,11 @@ public class addinone {
             System.out.print(ele + " ");
         }
 
-        ArrayList<Integer> result = addOne(arrp);
+        ArrayList<Integer> result = addOne(arrp);   // Ye line function (method) ko call kar rahi hai
+                                                // aur uska result store kar rahi hai
+                // addOne(arrp)	- function call
+                // ArrayList<Integer>	- return type
+                // result	- output store                                   
 
         System.out.println("\nAfter Adding One:");
         System.out.println(result);
