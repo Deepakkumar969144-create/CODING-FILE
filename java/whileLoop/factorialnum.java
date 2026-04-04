@@ -11,7 +11,5 @@ public class factorialnum {
         }
         System.out.println(fact);
         
-
     }
-    
 }

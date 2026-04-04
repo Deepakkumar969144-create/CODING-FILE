@@ -1,7 +1,6 @@
 package foreachloop;
 import java.util.Scanner;
 
-
 public class reversearray {
 
     public static void main(String[] args) {
@@ -11,7 +10,6 @@ public class reversearray {
         for( int ele: arr){
             System.out.print(ele + " ");
            
-
         }
         int n = arr.length ;
         int i=0 , j= n-1; 

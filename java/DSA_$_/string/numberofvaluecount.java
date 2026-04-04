@@ -15,7 +15,6 @@ public class numberofvaluecount {
             count ++;
             
         }
-       
     }
      System.out.print("total count vowels count: " + count );
 }

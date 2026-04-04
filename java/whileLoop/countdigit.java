@@ -13,8 +13,5 @@ public class countdigit {
         System.out.println(count);
 
     }
-
-    
-    
 }
 

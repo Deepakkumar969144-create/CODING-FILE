@@ -19,8 +19,5 @@ public class firsttt {
             System.out.println();
 
         }
-
-
     }
-    
 }

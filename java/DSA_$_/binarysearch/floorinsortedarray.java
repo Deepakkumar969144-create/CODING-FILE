@@ -18,8 +18,6 @@ public class floorinsortedarray {
         int result = findfloor(arr, x);
         System.out.println(" search index : " + result + " in element " + x);
 
-
-
     }
     public static int findfloor( int [] arr, int x){
         int low = 0 , high = arr.length -1, idx = -1;

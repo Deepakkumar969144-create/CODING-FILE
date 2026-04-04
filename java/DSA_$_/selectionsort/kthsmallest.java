@@ -31,8 +31,6 @@ public class kthsmallest {
 
         System.out.println("Kth smallest element: " + result);
 
-       
-
     }
 
 public static int kthsmallest ( int [] arr, int k){

@@ -15,6 +15,5 @@ public class alphasmallcapital {
             }
             System.out.println();
         }
-    }
-    
+    } 
 }

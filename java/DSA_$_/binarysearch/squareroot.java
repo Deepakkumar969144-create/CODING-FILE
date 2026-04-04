@@ -9,10 +9,8 @@ public class squareroot {
         Scanner sc=new Scanner(System.in);
         int n = 4;
        
-       
         System.out.println(" output " + squre(n));     //print and call yek sath
        
-
     }
     public static int squre(int n){
         int low = 0, high = n , idx = 0;
@@ -28,7 +26,6 @@ public class squareroot {
             }
         }
         return idx ;
-
     }
     
 }

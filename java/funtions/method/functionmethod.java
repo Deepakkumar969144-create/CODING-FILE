@@ -7,7 +7,6 @@ public class functionmethod {
         int n = sc.nextInt();
 
     }
-    
 }
 
             //  function method-

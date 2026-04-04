@@ -7,9 +7,7 @@ public class foreachloopp {
         int [] arr= { 4,5,2, 6,7,9};
         for ( int ele: arr){
             System.out.print(ele+ " ");
-
         }
-    }
-    
+    } 
 }
             //  for each loop - used to travese data structures. " can not modify array element." 

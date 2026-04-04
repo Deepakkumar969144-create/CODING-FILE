@@ -8,7 +8,6 @@ public class ques{
        int x= ch;
         System.out.println(x);
         
-
     }
 } 
      

@@ -8,10 +8,8 @@ public class multiple {
     // System.out.println(b);
     // System.out.println(c);
 
-
     // and 
-    
-    
+
     int z,x=8 , y=3, q=0;
     System.out.println(x);
     System.out.println(y);

@@ -10,6 +10,5 @@ public class sumdigitnum {
             n/=10;
         }
         System.out.println(sum);
-    }
-    
+    } 
 }

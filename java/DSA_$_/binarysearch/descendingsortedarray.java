@@ -19,8 +19,6 @@ public class descendingsortedarray {
         int result = floorsearch(arr, x);
         System.out.println("search index : " + result + " search element " + x);
 
-
-
     }
     public static int floorsearch( int [ ] arr , int x){
         int low = 0, high = arr.length -1 ;

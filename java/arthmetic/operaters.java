@@ -6,8 +6,7 @@ public class operaters {
         System.out.println(x-y);
         System.out.println(x*y);
         System.out.println(x/y);
-        System.out.println(x%y);
-        
+        System.out.println(x%y);   
 
     }
 }

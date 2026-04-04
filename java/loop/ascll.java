@@ -25,7 +25,6 @@
         System.out.println((char)i+" " +i);
 
      }
-
             
         }
 

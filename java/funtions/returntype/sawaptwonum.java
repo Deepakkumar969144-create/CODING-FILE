@@ -7,8 +7,7 @@ public class sawaptwonum {
         b=a;
         temp = a;             //   swap nhi ho raha es code me kuchh kami hai use sahi karo or update karo 
         b= temp ;
-
-        
+  
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -22,5 +21,4 @@ public class sawaptwonum {
         System.out.println( a+ " " +b );
 
     }
-    
 }

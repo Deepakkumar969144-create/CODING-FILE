@@ -18,7 +18,6 @@ public class singleamongdoublesorted {
         System.out.println("single among double in a sorted array : " + result);
         // for( int ele : arr){
         // System.out.print( ele + " ");
-
         // }
         // System.out.println();
 

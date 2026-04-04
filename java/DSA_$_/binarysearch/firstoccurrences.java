@@ -18,7 +18,6 @@ public class firstoccurrences {
         int result = binarysearch(arr, k);
         System.out.println(" outpput : " + result);
 
-
     }
             // first occurence 
             

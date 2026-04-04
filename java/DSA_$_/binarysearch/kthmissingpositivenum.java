@@ -17,8 +17,6 @@ public class kthmissingpositivenum {
         int k = sc.nextInt();
         int result = kthmissing(arr, k);
         System.out.print( "output " + result);
-
-
     }
     public static int kthmissing( int [] arr, int k){
         int low = 0 , high = arr.length-1;
@@ -29,7 +27,6 @@ public class kthmissingpositivenum {
 
             if( missing >= k) high = mid -1;
             else low = mid +1;
-
         }
         return high + 1 + k;
     }

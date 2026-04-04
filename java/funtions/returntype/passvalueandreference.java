@@ -11,6 +11,5 @@ public class passvalueandreference {
         change(x);
         System.out.println(x);
 
-    }
-    
+    }  
 }

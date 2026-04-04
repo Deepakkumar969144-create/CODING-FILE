@@ -8,8 +8,5 @@ public class quessecond{
         int v= 4+2%-8;
         System.out.println(v);
 
-
-
     }
-
 }

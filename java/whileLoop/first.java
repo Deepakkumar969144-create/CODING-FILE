@@ -12,10 +12,7 @@ public class first {
 
         }
     }
-    
 }
-
-
      //    for loop - 
 
         // Scanner sc=new Scanner(System.in);

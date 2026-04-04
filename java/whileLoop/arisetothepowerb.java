@@ -13,8 +13,6 @@ public class arisetothepowerb {
         }
         System.out.println(a+"raised to the power "+b+ "is "+pow);
         
-
     }
-
 }
 

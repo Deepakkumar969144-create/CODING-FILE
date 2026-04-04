@@ -35,7 +35,6 @@ public class diamand {
 
                 //  pyramid pattern 
 
-
     //    Scanner sc=new Scanner(System.in);
     //     System.out.println("enter input  : ");
     //     int n = sc.nextInt();

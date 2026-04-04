@@ -14,8 +14,7 @@ public class absalute{
 }
 
         //  int and double comparison (==)-value chack karta hai data type nhi 
-
-        
+     
 // int n= 10;
 // if(n==10.0){
 //     System.out.println("true ");

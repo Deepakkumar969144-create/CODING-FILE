@@ -10,8 +10,6 @@ public class Demofuntioncall {
         System.out.println("Hello DK");
     }
 } 
-
-
                             //  2. Function with Parameters   ( 👉 Use: Input pass karna)
 
 public class Demofuntioncall{

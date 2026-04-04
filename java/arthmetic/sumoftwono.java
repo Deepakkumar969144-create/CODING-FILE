@@ -13,6 +13,5 @@ public class sumoftwono {
          int sum = x+y;
          System.out.println(" the sum of two number is : " +sum );
   
-      
     }
 }

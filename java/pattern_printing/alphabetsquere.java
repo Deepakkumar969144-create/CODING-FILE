@@ -13,7 +13,5 @@ public class alphabetsquere {
             }
             System.out.println();
         }
-
-       
         }
     }

@@ -14,8 +14,6 @@
     
 // }
 
-
-
 //  but llogically 
 
 import java.util.Scanner;
@@ -27,10 +25,7 @@ public class table {
         for (int i=1; i<=10; i=i+1){
             System.out.println(i*n+" ");
 
-
         }
-
     }
-
     
 }

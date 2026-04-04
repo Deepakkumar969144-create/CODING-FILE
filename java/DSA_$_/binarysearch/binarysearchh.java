@@ -19,8 +19,7 @@ public class binarysearchh {
         System.out.println(" search in array element " +target );
           int result = search(arr,target);
           System.out.println(" binary search in array : " + result);
-       
-            
+        
         }
 
     public static int search( int [] arr ,int target ){

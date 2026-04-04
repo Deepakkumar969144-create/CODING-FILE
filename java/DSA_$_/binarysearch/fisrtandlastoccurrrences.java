@@ -22,7 +22,6 @@ public class fisrtandlastoccurrrences {
         int result1 = firstoccurence(arr, target);
         int result2 = lastoccurence(arr, target);
         System.out.println("final occureneced(index number) : ["  +result1+ " , " +result2+ "]");
-
     }
             //  fisrt occurence 
 

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class firstprogram {
+public class areacircle {
     static void main() {
         Scanner sc  = new Scanner(System.in);
         System.out.println("enter radius: ");

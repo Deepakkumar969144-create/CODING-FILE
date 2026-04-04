@@ -29,7 +29,6 @@ public static void pushzerostoend(int [] arr){
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp ;
-
             }
             j++;
 
