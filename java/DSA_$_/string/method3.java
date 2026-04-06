@@ -13,6 +13,9 @@ public class method3 {
         System.out.println(str.substring(0)); // string str ke index 0 se end tak ka substring deta hai output puri string aayegi
         System.out.println(str.substring(4)); // string str ke index 4 se end tak ka substring deta hai output shankar aayegi
         System.out.println(str.substring(1,5)); // string str ke index 1 se 5 tak ka substring deta hai output aish aayegi
+        char ch = str.charAt(3); // string str ke index 3 par jo character hai usko ch variable me store kar leta hai output s aayegi
     }
     
-}
+}  
+    // charAt() Java ka method hai jo string ke kisi specific index ka character return karta hai
+    // charAt() → string ke kisi index ka character nikalta hai

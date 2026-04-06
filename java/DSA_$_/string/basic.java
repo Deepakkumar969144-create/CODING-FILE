@@ -14,7 +14,8 @@ public class basic {
 
          //** */   // basic eeje for string - 
       String str = "chaitnaya and shruti";
-      System.out.println(str.charAt(4));        // s[4] index 
+      System.out.println(str.charAt(4));        // s[4] index  // charAt() method se hum kisi bhi index par jo character hai 
+        //  usko print kar sakte hai
       int n= str.length();  // STRING KI LENGTH 
     }
     
