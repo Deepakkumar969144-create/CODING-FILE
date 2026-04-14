@@ -1,6 +1,6 @@
 
 
-public class firstt {
+public class firstttt {
     public static void main(String[] args) {
         char ch = 'a';
         System.out.println(ch);
