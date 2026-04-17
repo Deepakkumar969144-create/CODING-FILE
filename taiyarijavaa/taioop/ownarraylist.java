@@ -88,3 +88,20 @@ public class ownarraylist {
 
     }
 }
+
+// 1. ArrayList kya hota hai?
+//      Java ka ArrayList ek dynamic array hota hai
+//       matlab size automatically badh jata hai
+
+// Normal array:
+//      int[] arr = new int[5]; // fixed size
+
+// ArrayList:
+//      ArrayList<Integer> list = new ArrayList<>();
+//      size apne aap increase hota hai
+
+// 2. Own ArrayList ka logic (core idea)
+//      Tu basically 3 cheeze use karta hai:
+//           int[] arr;   // actual array
+//           int size;    // kitne elements hai
+//           int capacity; // total space 
