@@ -1,3 +1,4 @@
+package oopps;
 
 class frection{
     int num;

@@ -2,7 +2,7 @@ package LinkedList;
 import java.util.Scanner;
 import java.util.*;
 
-// node class to basixx me bana chuke hia 
+    // node class to basixx me bana chuke hia 
 class Linkedlist{ // user defined data structure 
     node head ; // null
     node tail;  // null
@@ -46,6 +46,7 @@ class Linkedlist{ // user defined data structure
         if(head == null )  tail = null;
         size -- ;
     }
+
     // int search ( int val ){
     //     if(head = null ){
     //         return -1;
@@ -67,6 +68,7 @@ class Linkedlist{ // user defined data structure
     //     return false ;
     // }
 } 
+
 public class linkedlistdatastructure {
     public static void main(String[] args) {
    Linkedlist ll = new Linkedlist();

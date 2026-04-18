@@ -1,3 +1,4 @@
+package oopps;
 import java.util.Scanner;
 import java.util.*;
     //  same method - different behavior

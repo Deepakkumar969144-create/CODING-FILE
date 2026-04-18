@@ -1,3 +1,4 @@
+package oopps;
 import java.util.Scanner;
 import java.util.*;
         // private ko hm normally access nhi kar sakte hai ( private keyword ka use karne se hm kisi bhi variable 

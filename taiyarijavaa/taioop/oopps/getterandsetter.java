@@ -1,3 +1,4 @@
+package oopps;
 import java.util.Scanner;
 import java.util.*;
 // Getter → value read (get) karta hai

@@ -6,12 +6,10 @@ import java.util.*;
 class node {
     int val;
     node next;
-    node idx ;
 
-    node ( int val ){
+    node(int val){
         this.val = val;
         this.next = null;
-
     }
 }
 

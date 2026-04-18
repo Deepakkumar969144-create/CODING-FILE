@@ -27,7 +27,7 @@ public class displaylist {
 
     }
 
-      // for loop se display - 
+             // for loop se display - 
     // for(node tempp = head; temp != null; temp = temp.next){
     //     System.out.println(temp.val + " ");
     

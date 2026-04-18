@@ -6,6 +6,7 @@ import java.util.*;
 class search {
     node head;
     node tail;
+    node temp;
     int size = 0;
 
     void addAttail(int val){
@@ -31,15 +32,15 @@ class search {
     // index return karega (-1 agar nahi mila)
     int searchIndex(int val){
         if(head == null) return -1;
-
         node temp = head;
-        int idx = 0;
-
-        while(temp != null){
-            if(temp.val == val) return idx;
+        int idx =0;
+        // node temp = head;
+        while(temp != null) return idx;
+        
+            // if(temp != null) return idx;
             temp = temp.next;
             idx++;
-        }
+        
         return -1;
     }
 

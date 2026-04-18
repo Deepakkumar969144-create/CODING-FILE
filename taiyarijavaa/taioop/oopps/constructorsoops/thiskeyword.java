@@ -1,4 +1,4 @@
-package constructors;
+package oopps.constructorsoops;
 import java.util.Scanner;
 import java.util.*;
 
