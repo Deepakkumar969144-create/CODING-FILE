@@ -30,7 +30,7 @@ class Linkedlist{ // user defined data structure
         if( head == null ) return ;
         node temp = head;
         while ( temp != null ) {
-            System.out.println(temp.val + " ");
+            System.out.print(temp.val + " ");
             temp = temp.next;
             
         }

@@ -72,12 +72,12 @@ public class searchindexorelement {
         System.out.println("full linked list element : ");
         ss.display();
 
-        System.out.print("enter element : ");
+        System.out.print("enter node : ");
         int val = sc.nextInt();
-        System.out.println("Index of element : " + ss.searchIndex(val));
-        System.out.print("enter element : ");
+        System.out.println("Index of node : " + ss.searchIndex(val));
+        System.out.print("enter node : ");
         int vall = sc.nextInt();
-        System.out.println("Is present element : " + ss.searchElement(vall));
+        System.out.println("Is present node : " + ss.searchElement(vall));
 
 
     }

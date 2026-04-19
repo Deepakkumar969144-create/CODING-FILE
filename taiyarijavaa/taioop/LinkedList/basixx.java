@@ -26,13 +26,13 @@ public class basixx {
         b.next = c;
         c.next = d;
         d.next = e;
-            System.out.println("ulte number : ");
+            System.out.println("ulte number node : ");
             System.out.print(e.val+ " ");
             System.out.print(a.next.next.next.val+ " ");
             System.out.print(a.next.next.val+ " ");
             System.out.print(a.next.val+ " ");
             System.out.println(a.val+ " ");
-            System.out.println("sahi number: ");
+            System.out.println("sahi number node: ");
             System.out.print(a.val+" ");
             System.out.print(b.val+ " ");
             System.out.print(c.val+ " ");

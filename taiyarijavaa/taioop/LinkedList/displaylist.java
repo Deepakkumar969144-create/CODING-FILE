@@ -22,10 +22,11 @@ public class displaylist {
       // while loop se printing( display) - 
     node temp = head;
     while ( temp != null){
-        System.out.println(temp.val + " ");
+        System.out.print(temp.val + " ");
         temp = temp.next; // imp.
 
     }
+    System.out.println();
 
              // for loop se display - 
     // for(node tempp = head; temp != null; temp = temp.next){
@@ -36,6 +37,8 @@ public class displaylist {
     }
 
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        
          // 10->20->30->40->50
         node a = new node(10);
         node b = new node(20);
@@ -47,9 +50,12 @@ public class displaylist {
         b.next = c;
         c.next = d;
         d.next = e;
-        // display(a);
+        System.out.println("linked list : " );
+        display(a);
         // displayrec(a);
-        System.out.println(get(a,4)); // d bala print hoga kiyo ki index 4 par d hai 
+        System.out.print("entr index : ");
+        int idx = sc.nextInt();
+        System.out.println( "linked list node your index : " + get(a, idx)); // d bala print hoga kiyo ki index 4 par d hai 
 
             // error aayega kiyo ki null ya null ke bad kuchh nahi hota null end point hota hai 
         // node n = null ;
