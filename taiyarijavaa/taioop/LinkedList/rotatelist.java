@@ -6,7 +6,7 @@ import binarysearch.sortedandrotatedarray;
 import java.util.*;
 
 class rotate{
-     node head;
+    node head;
     node tail;
     int size = 0;
 
@@ -70,7 +70,7 @@ class rotate{
     int length (node head ){
         int len = 0;
         node temp = head;
-        while (temp != head) {
+        while (temp != null) {
             temp = temp.next;
             len ++;
             
@@ -78,32 +78,38 @@ class rotate{
         return len ;
 
         }
-          node rotateright ( node head , int k ){
-            if(head == null || head.next == null )
-            return head;
-            int  n = length(head);
-            k %= n;
-            if( k ==0 ) return head;
-            node slow = head;
-            node fast = head;
-            for( int i = 1 ; i <= k +1; i++ ){
-                fast = fast.next;
+  node rotateright ( node head , int k ){
+    if(head == null || head.next == null )
+        return head;
 
-            }
-            while ( fast != null ) {
-                slow = slow.next;
-                fast = fast.next;
+    int n = length(head);
+    k %= n;
+    if( k == 0 ) return head;
 
-            }
-            node a = slow.next;
-            slow.next = a;
-            node tail = a ;
-            while (tail .next != null ) {
-                tail  = tail.next ;
-                tail.next = head;
-                
-            }
-            return a ;
+    node slow = head;
+    node fast = head;
+
+    for(int i = 0; i < k; i++){   // FIX
+        fast = fast.next;
+
+    }
+
+    while (fast.next != null) {
+        slow = slow.next;
+        fast = fast.next;
+
+    }
+
+    node a = slow.next;
+    slow.next = null;
+
+    node tail = a;   // FIX
+    while (tail.next != null) {
+        tail = tail.next;
+
+    }
+    tail.next = head;
+    return a;
 
     }
 
@@ -122,9 +128,13 @@ public class rotatelist {
          System.out.println("linked list : ");
          ll.display();
 
-         System.out.print("enter k node : ");
-         int k = sc.nextInt();
-         
+        System.out.print("enter k rotation this point ( end node se countting ) : ");
+        int k = sc.nextInt();
+
+        ll.head = ll.rotateright(ll.head, k);  // main call karna 
+
+        System.out.println("After rotation:");
+        ll.display();
 
     }
 }
