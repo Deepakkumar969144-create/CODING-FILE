@@ -5,10 +5,12 @@ import java.util.*;
 public class node {
     int val;
     node next;
+    node prev;
 
     node(int val){
         this.val = val;
         this.next = null;
+        
     }
 
 }
