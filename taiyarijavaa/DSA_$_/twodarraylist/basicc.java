@@ -81,7 +81,7 @@ public class basicc {
 
             // "This is a method call (method invocation) where generate is the method name and n is the argument."
          pascalstriangle obj = new pascalstriangle();
-        List<List<Integer>> result = obj.generate(n);
+         List<List<Integer>> result = obj.generate(n);
         
     }
 }
