@@ -3,6 +3,8 @@ import java.util.*;
 
 public class basicks {
     public static void main(String[] args) {
+
+                 // add , remove , peek , size -
         Scanner sc=new Scanner(System.in);
         Queue<Integer> q = new LinkedList<>();
         q.add(10);
@@ -16,5 +18,4 @@ public class basicks {
         System.out.println(q.remove() + " " +q);
         
     }
-        // add , remove , peek , size -
 }
