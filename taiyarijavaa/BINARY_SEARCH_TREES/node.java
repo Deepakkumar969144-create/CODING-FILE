@@ -6,8 +6,14 @@ import java.util.*;
     int data;
     node left;
     node right;
+    int max;
+    int min;
 
     node(int data){
         this.data=data;
+        this.max = max;
+        this.min = min;
+        
     }
 }
+
