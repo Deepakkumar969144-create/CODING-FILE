@@ -1,6 +1,5 @@
 package taiyarijavaa.BINARY_SEARCH_TREES;
 import java.util.Scanner;
-import taiyarijavaa.QUEUES.rearrangequeue;
 import java.util.*;
 
     // max - min pair return - 
