@@ -1,5 +1,6 @@
 package taiyarijavaa.BINARY_SEARCH_TREES;
 import java.util.Scanner;
+
 import java.util.*;
 
 public class tripletcheckbst {
