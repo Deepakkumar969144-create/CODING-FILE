@@ -1,5 +1,5 @@
 
-package taiyarijavaa.TAI_OOP.oopps.constructorsoops;
+package TAI_OOP.oopps.constructorsoops;
 import java.util.*;
 
         // * final keyword - 

@@ -1,4 +1,4 @@
-package taiyarijavaa.QUEUES;
+package QUEUES;
 
 public class node {
     int val;

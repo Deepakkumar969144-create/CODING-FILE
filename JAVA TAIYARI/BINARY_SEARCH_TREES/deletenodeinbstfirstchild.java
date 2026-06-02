@@ -1,9 +1,4 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
-import java.util.Scanner;
-
-import taiyarijavaa.BINARY_TREES.printtrees;
-import taiyarijavaa.QUEUES.rearrangequeue;
-
+package BINARY_SEARCH_TREES;
 import java.util.*;
 
 public class deletenodeinbstfirstchild {

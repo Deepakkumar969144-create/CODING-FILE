@@ -1,4 +1,4 @@
-package taiyarijavaa.BIT_Manupulation;
+package BIT_Manupulation;
 import java.util.Scanner;
 import java.util.*;
 

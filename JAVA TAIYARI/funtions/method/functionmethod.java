@@ -1,4 +1,4 @@
-package java.funtions.method;
+package method;
 import java.util.Scanner;
 public class functionmethod {
     public static void main(String[] args) {

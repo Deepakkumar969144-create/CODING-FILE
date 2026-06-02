@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
+package BINARY_SEARCH_TREES;
 import java.util.Scanner;
 
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.*;
 public class largestbstt {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-         node a = new node(20);
+        node a = new node(20);
         node b = new node(8);
         node c = new node(22);
         node d = new node(4);

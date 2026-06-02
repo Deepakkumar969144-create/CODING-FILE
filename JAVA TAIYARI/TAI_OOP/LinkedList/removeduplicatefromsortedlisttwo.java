@@ -1,4 +1,4 @@
-package taiyarijavaa.TAI_OOP.LinkedList;
+package TAI_OOP.LinkedList;
 import java.util.*;
 
 class removeduplicatetwo{

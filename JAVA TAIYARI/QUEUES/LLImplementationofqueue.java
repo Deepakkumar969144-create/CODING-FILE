@@ -1,4 +1,4 @@
-package taiyarijavaa.QUEUES;
+package QUEUES;
 import java.util.*;
 
 public class LLImplementationofqueue {

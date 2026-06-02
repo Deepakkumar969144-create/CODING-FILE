@@ -1,10 +1,10 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
+package BINARY_SEARCH_TREES;
 import java.util.Scanner;
 import java.util.*;
 
 public class Bstbasic {
     // insert
-   public static node insert(node root,int data){
+    public static node insert(node root,int data){
     if(root==null){
         root=new node(data);
         return root;

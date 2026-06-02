@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
+package BINARY_SEARCH_TREES;
 import java.util.Scanner;
 import java.util.*;
 
@@ -13,7 +13,7 @@ public static void main(String[] args) {
         root=insert(root,arr[i]);
 
     }
-     System.out.println("Binary Search Tree : ");
+    System.out.println("Binary Search Tree : ");
     display(root,0);
 
     maxandminelement obj = new maxandminelement();

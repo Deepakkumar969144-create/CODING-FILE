@@ -1,6 +1,7 @@
-package taiyarijavaa.TAI_OOP.LinkedList;
+package TAI_OOP.LinkedList;
+import java.util.Scanner;
+import java.util.*;
 
-import oopps.polymorphism.human;
 
 class insertt{ // user defined data structure 
     node head ; // null

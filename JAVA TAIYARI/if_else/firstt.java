@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class firstt{
     public static void main(String[] args) {

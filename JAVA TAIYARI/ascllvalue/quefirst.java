@@ -12,9 +12,9 @@ public class quefirst {
         double x;
 
         b= 6.6;
-         a= b;
-         x= b/a+2*n;
-         System.out.println(x);
+        a= b;
+        x= b/a+2*n;
+        System.out.println(x);
 
     }
 }

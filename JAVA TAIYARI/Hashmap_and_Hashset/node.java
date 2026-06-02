@@ -1,5 +1,4 @@
-package taiyarijavaa.Hashmap_and_Hashset;
-
+package Hashmap_and_Hashset;
 import org.w3c.dom.Node;
 
 public class node{

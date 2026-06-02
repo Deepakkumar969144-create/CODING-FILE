@@ -1,5 +1,4 @@
-package taiyarijavaa.HEAPS;
-
+package HEAPS;
 import java.util.*;
 
 public class findkclosestelement {

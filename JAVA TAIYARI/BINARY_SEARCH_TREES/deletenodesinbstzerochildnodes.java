@@ -1,10 +1,10 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
+package BINARY_SEARCH_TREES;
 import java.util.Scanner;
 import java.util.*;
 public class deletenodesinbstzerochildnodes {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-           node a = new node(10);
+        node a = new node(10);
         node b = new node(20);
         node c = new node(30);
 

@@ -73,15 +73,15 @@ public class basicc {
         }
         System.out.println();
 
-            // to array matrix ka call karna 
-         ArrayList<ArrayList<Integer>> result = multiply(mat1, mat2);
+        //     // to array matrix ka call karna 
+        //  ArrayList<ArrayList<Integer>> result = multiply(mat1, mat2);
 
-            // arraylist or 1 array matrix ka call karna 
-         ArrayList<Integer> result = spirallytraverse(mat);
+        //     // arraylist or 1 array matrix ka call karna 
+        //  ArrayList<Integer> result = spirallytraverse(mat);
 
-            // "This is a method call (method invocation) where generate is the method name and n is the argument."
-         pascalstriangle obj = new pascalstriangle();
-         List<List<Integer>> result = obj.generate(n);
+        //     // "This is a method call (method invocation) where generate is the method name and n is the argument."
+        //  pascalstriangle obj = new pascalstriangle();
+        //  List<List<Integer>> result = obj.generate(n);
         
     }
 }

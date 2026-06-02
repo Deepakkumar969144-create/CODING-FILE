@@ -1,4 +1,4 @@
-package taiyarijavaa.HEAPS;
+package HEAPS;
 import java.util.Scanner;
 import java.util.*;
 import java.util.*;

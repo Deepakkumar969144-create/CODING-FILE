@@ -1,4 +1,4 @@
-package taiyarijavaa.TAI_OOP.LinkedListtwo;
+package TAI_OOP.LinkedListtwo;
 import java.util.Scanner;
 import java.util.*;
 
@@ -93,7 +93,7 @@ class partition{
 public class partitionlist {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        portition ll = new portition();
+        partition ll = new partition();
         ll.addathead(1);
         ll.addattail(4);
         ll.addattail(3);

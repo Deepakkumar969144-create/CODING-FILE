@@ -1,10 +1,6 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
+package BINARY_SEARCH_TREES;
 import java.util.Scanner;
-
-import taiyarijavaa.BINARY_TREES.treeboundarytraversal;
-
 import java.util.*;
-
 public class searchinabst {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

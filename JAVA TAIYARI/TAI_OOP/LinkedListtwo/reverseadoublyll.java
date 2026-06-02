@@ -1,4 +1,4 @@
-package taiyarijavaa.TAI_OOP.LinkedListtwo;
+package TAI_OOP.LinkedListtwo;
 import java.util.Scanner;
 import java.util.*;
 

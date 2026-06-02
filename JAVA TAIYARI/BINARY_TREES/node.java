@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_TREES;
+package BINARY_TREES;
 
 import org.w3c.dom.Node;
 

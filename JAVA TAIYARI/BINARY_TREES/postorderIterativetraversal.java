@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_TREES;
+package BINARY_TREES;
 
 import java.util.*;
 

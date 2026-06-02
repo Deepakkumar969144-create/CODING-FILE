@@ -1,4 +1,4 @@
-package taiyarijavaa.TAI_OOP.oopps;
+package TAI_OOP.oopps;
 
 class frection{
     int num;

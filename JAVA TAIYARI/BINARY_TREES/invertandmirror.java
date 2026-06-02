@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_TREES;
+package BINARY_TREES;
 import java.util.Scanner;
 
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.*;
 public class invertandmirror { // invert and mirror same 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-          node a = new node(5);
+        node a = new node(5);
         node b = new node(4);
         node c = new node(-3);
         node d = new node(8);

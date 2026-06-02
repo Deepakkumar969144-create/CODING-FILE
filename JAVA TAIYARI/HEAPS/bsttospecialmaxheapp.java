@@ -1,9 +1,15 @@
-package taiyarijavaa.HEAPS;
-import java.util.Scanner;
-
-import taiyarijavaa.HEAPS.isbinarytreesheap.node;
-
+package HEAPS;
 import java.util.*;
+class node{
+    int data ;
+    node left ;
+    node right ;
+    node(int data ){
+        this.data = data ;
+        this.left = null ;
+        this.right = null ;
+    }
+}
 
 public class bsttospecialmaxheapp{
     public static void main(String[] args) {

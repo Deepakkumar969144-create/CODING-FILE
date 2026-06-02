@@ -1,5 +1,4 @@
-package taiyarijavaa.TAI_OOP.oopps;
-
+package TAI_OOP.oopps;
     // Ek class dusri class ke properties aur methods use kar leti hai
         // Matlab:
     // “Code reuse” + “parent → child relation”

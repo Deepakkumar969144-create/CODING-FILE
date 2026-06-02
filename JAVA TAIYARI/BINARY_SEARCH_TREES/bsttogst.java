@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
+package BINARY_SEARCH_TREES;
 import java.util.Scanner;
 import java.util.*;
     // bst to gst ( bst to greater sum tree)- 

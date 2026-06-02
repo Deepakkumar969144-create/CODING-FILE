@@ -1,4 +1,4 @@
-package taiyarijavaa.TAI_OOP.oopps;
+package TAI_OOP.oopps;
 import java.util.Scanner;
 import java.util.*;
         // private ko hm normally access nhi kar sakte hai ( private keyword ka use karne se hm kisi bhi variable 

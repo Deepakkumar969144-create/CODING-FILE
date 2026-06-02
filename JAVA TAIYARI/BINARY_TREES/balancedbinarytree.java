@@ -1,4 +1,4 @@
-package taiyarijavaa.BINARY_TREES;
+package BINARY_TREES;
 import java.util.*;
 
 public class balancedbinarytree { // |height(left) - height(right)| <= 1 condintion 

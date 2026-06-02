@@ -1,15 +1,11 @@
-package taiyarijavaa.BINARY_SEARCH_TREES;
-import java.util.Scanner;
-
-import taiyarijavaa.BINARY_TREES.roottoleafpath;
-
+package BINARY_SEARCH_TREES;
 import java.util.*;
 
 // predecessor - root ka nust chhota bala node and successor - root ka just bada bala node 
 public class inorderpredecessorandsuccessor {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-          node a = new node(10);
+        node a = new node(10);
         node b = new node(20);
         node c = new node(30);
         node d = new node(40);

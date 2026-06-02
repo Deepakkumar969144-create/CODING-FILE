@@ -1,4 +1,4 @@
-package taiyarijavaa.STACKS;
+package STACKS;
    class node{
     int val;
     node next;

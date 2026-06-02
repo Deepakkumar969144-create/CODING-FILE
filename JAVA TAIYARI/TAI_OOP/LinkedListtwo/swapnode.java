@@ -1,7 +1,4 @@
-package taiyarijavaa.TAI_OOP.LinkedListtwo;
-import java.util.Scanner;
-
-import LinkedList.removeduplicatefromsortedlinkedlist;
+package TAI_OOP.LinkedListtwo;
 
 import java.util.*;
 

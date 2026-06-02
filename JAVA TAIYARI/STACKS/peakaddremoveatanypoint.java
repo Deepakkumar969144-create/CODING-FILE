@@ -1,4 +1,4 @@
-package taiyarijavaa.STACKS;
+package STACKS;
 import java.util.*;
 
 public class peakaddremoveatanypoint {

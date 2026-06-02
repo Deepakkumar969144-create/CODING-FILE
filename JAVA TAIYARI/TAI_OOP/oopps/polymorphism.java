@@ -1,5 +1,4 @@
-package taiyarijavaa.TAI_OOP.oopps;
-import java.util.Scanner;
+package TAI_OOP.oopps;
 import java.util.*;
     //  same method - different behavior
 public class polymorphism {
