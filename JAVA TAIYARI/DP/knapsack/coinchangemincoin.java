@@ -1,4 +1,4 @@
-package DP.knapsack;
+
 import java.util.Scanner;
 import java.util.*;
 public class coinchangemincoin {
