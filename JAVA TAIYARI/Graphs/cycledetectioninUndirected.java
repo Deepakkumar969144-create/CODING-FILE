@@ -16,8 +16,9 @@ public class cycledetectioninUndirected {
             System.out.println();
 
         }
-        System.out.println(" value of v : \n"+ v +"value of E " + E);
+        System.out.println("value of v : "+ v +"\nvalue of E " + E);
         System.out.print("cycle detection in undirected : ");
+        System.out.println(iscycle(E, edges));
 
     }
     static class pair{
@@ -26,6 +27,7 @@ public class cycledetectioninUndirected {
         pair( int vertex , int parent ){
             this.vertex = vertex;
             this.parent = parent;
+            
 
         }
     }
@@ -60,8 +62,19 @@ public class cycledetectioninUndirected {
             pair front = q.remove();
             int vertex = front.vertex;
             int parent = front.parent;
-            for( int ele : )
-            
+            for( int ele : adj.get(vertex)){
+                if(!vis[ele ] ){ 
+                q.add(new pair(ele , vertex )   );
+                vis[ele] = true;
+
+            }
+            else if( ele != parent) return true;
+
+            }
+
         }
+        return false;
+
     }
+
 }
