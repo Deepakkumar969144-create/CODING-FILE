@@ -7,6 +7,7 @@ public class bipartiteGraph {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int [][] edges = { { 0, 3 }, { 1, 2 }, { 3, 2 }, { 0, 2 }};
+        System.out.println("value of Array element : ");
         for( int [] array : edges){
             for( int ele : array){
                 System.out.print( ele + " ");
@@ -19,7 +20,7 @@ public class bipartiteGraph {
         System.out.println("valur of v : " + v);
         System.out.println("Bipartite Graph : ");
         System.out.println(isbipartite(v, edges));
-        
+
     }
     public static boolean isbipartite( int n , int[][]edges ){
         ArrayList<ArrayList<Integer >> adj = new ArrayList<>();

@@ -1,15 +1,59 @@
 package Graphs;
-import java.util.Scanner;
 import java.util.*;
 
 public class topologicalSort {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        
+        int [][] edges = {{ 0, 2 },{2,3 }, { 3,4},{1,3 }, { 3,5},{0,3 }};
+        System.out.println("value of Array element : ");
+        for( int [] array : edges){
+            for( int ele : array){
+                System.out.print( ele + " ");
+
+            }
+            System.out.println();
+
+        }
+        int v = 6; // value = 6 
+        System.out.println("value of v : " + v);
+        System.out.println("topological Sort Graph : ");
+        System.out.println(toposor(v, edges)    );
+
     }
     public static ArrayList<Integer> toposor( int n , int[][] edges){
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        
+        for( int i = 0; i<n; i++ ){
+            adj.add(new ArrayList<>());
+            
+        }
+        int[]indegree = new int[n];
+        for( int i =0 ; i<edges.length; i++ ){
+            int u = edges[i][0] ;
+            int v = edges[i][1];
+            adj.get(u ).add(v);
+            // adj.get (v).add(u);
+            indegree[v]++;
+
+        }
+        Queue<Integer> q = new LinkedList<>();
+        for( int i = 0; i<n; i++ ){
+            if( indegree[i] == 0 )
+            q.add(i );
+
+        }
+        ArrayList<Integer> ans = new ArrayList<>();
+        while (q.size() > 0 ) {
+            int vertex = q.remove();
+            ans.add(vertex);
+            for( int ele : adj.get(vertex)){
+                indegree[ele ] -- ;
+                if( indegree[ele] == 0 ) q.add(ele);
+
+            }
+            
+        }
+        return ans;
+
     }
     
 }
